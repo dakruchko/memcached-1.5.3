@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 17 Dec 2018 11:12:56 +0300
+Source: memcached
+Binary: memcached
+Architecture: source amd64
+Version: 1.5.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: unknown <developer@xenial64>
+Description:
+ memcached  - high-performance memory object caching system
+Changes:
+ memcached (1.5.3-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 02a70191cc7cccc8d6e85bbb3110280ceb6fef0b 1109 memcached_1.5.3-1.dsc
+ 188a70f09f7d780f9a930ec7b3b7637b4effd2b9 413997 memcached_1.5.3.orig.tar.gz
+ c44cad5079cc96ed6f793fc48d0a956c42bdaef2 2992 memcached_1.5.3-1.debian.tar.xz
+ 6ad16827dd0156d3ec21619bae72b703205d01aa 88660 memcached_1.5.3-1_amd64.deb
+Checksums-Sha256:
+ 0838104a75be3cb96fedb2ac51315a1016b2b2acf05816fa0491c71cbe8811ec 1109 memcached_1.5.3-1.dsc
+ 115613d8d526feb63720872337fd6587782d61992586d6b1752036d8446be521 413997 memcached_1.5.3.orig.tar.gz
+ 6e81d4668bf75748a9088cc67b0571db8702e61c25433b182d5d9d74fa2897b5 2992 memcached_1.5.3-1.debian.tar.xz
+ 0f7a8389956af080eb59f5bd551ead514b95858f28974b9f4f4b8181f0ed7acb 88660 memcached_1.5.3-1_amd64.deb
+Files:
+ bb3ff5b93e43d53f86633d6d89e4463d 1109 web optional memcached_1.5.3-1.dsc
+ 32d1e52e99a29cd1bc57432e02d6c835 413997 web optional memcached_1.5.3.orig.tar.gz
+ afd80fd0be73bd4a2ac1ebe93132b4a9 2992 web optional memcached_1.5.3-1.debian.tar.xz
+ 36275dc93bd069125957eb21504d591c 88660 web optional memcached_1.5.3-1_amd64.deb
+Original-Maintainer: Guillaume Delacour <gui@iroqwa.org>
